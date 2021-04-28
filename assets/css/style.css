@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url("../images/pexels-lukas-574073.jpg");
+    height: 650px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    background-attachment: fixed;
+}
+header {
+    padding: 15px;
+    margin: 15px;
+}
+header h1 {
+    display: inline;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    font-style: italic;
+}
+header nav {
+    float: right;
+    margin: 0;
+}
+header nav ul li {
+    display: inline;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+    margin: 0 30px;
+}
+.about-me {
+    padding: 75px;
+    width: 750px;
+}
+.about-me h1 {
+    font-size: 35px;
+    padding: 40px;
+}
+.about-me p {
+    font-size: 25px;
+    padding: 40px;
+}
